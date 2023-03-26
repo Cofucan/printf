@@ -1,3 +1,7 @@
+# Specific
+debug
+main.c
+
 # Prerequisites
 *.d
 
