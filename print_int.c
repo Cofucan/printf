@@ -3,6 +3,13 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+/**
+ * print_int - prints the digits of an integer to stdout
+ * @num: Number to be printed
+ *
+ * Return: The number of bytes printed to stdout
+ */
+
 int print_int(int num)
 {
 	char digit;

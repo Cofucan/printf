@@ -3,6 +3,13 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+/**
+ * print_float - prints the digits of a float to stdout
+ * @num: Number to be printed
+ *
+ * Return: The number of bytes printed to stdout
+ */
+
 int print_float(float num)
 {
 	char sign = '-';
