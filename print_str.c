@@ -14,6 +14,9 @@ int print_str(char *str)
 {
 	int bytes = 0;
 
+	if (!str)
+		str = "(null)";
+
 	while (*str)
 	{
 		bytes += _putchar(*str);
