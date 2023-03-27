@@ -12,7 +12,7 @@
 
 int print_int(int num)
 {
-	char digit;
+	char digit = '0';
 	char sign = '-';
 	int bytes = 0;
 	int num_len;
@@ -22,6 +22,11 @@ int print_int(int num)
 	{
 		bytes += write(1, &sign, sizeof(char));
 		num = -num;
+	}
+	if (num == 0)
+	{
+		bytes += write(1, &digit, sizeof(char));
+		return (bytes);
 	}
 
 	num_len = number_of_digits(num);
