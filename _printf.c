@@ -29,6 +29,9 @@ int _printf(const char *format, ...)
 		u++;
 		switch (*(format + u))
 		{
+			case '%':
+				bytes += _putchar('%');
+				break;
 			case 'c':
 				c_type = (char)va_arg(args, int);
 				bytes += _putchar(c_type);
