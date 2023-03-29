@@ -9,3 +9,4 @@ b: the unsigned int argument is converted to binary
 Handle the 0 flag character for non-custom conversion specifiers
 Handle the - flag character for non-custom conversion specifiers.
 r : prints the reversed string
+R: prints the rot13'ed string
