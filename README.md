@@ -5,3 +5,4 @@ This is a team project where I worked with my ALX SE collegue, Eghieye Prosper, 
 * c: specifier to print a character
 * s: specifier to print a string
 * %: specifier to literally print the '%' sign
+b: the unsigned int argument is converted to binary
