@@ -5,4 +5,4 @@ trace: debug
 	gdb debug --tui
 
 betty-all:
-	betty _printf.c main.h print* util*
+	betty *.c
